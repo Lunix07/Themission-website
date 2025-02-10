@@ -1,0 +1,52 @@
+ /* Arrow Position */
+ .client-section {
+    position: relative;
+}
+
+/* Arrow Styling */
+.client-navigation a {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.arrow-left {
+    left: 0;
+    margin-left: -30px;
+}
+
+.arrow-right {
+    right: 0;
+    margin-right: -30px;
+}
+
+.client-navigation a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.client-card img {
+    width: 250px; /* Fixed width */
+    height: 250px; /* Fixed height */
+    object-fit: cover; /* Ensures the image keeps its aspect ratio while filling the box */
+    border-radius: 50%; /* Optional: Make the image circular */
+}
+
+.client-card {
+    max-width: 300px; /* Set a maximum width for the card */
+    margin: 0 auto; /* Center the card horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.client-info {
+    text-align: center;
+}
