@@ -1,8 +1,9 @@
 
+<link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
 
-<div class="footer-area footer-padding">        mise en ouevre kbal encadrement w soutien lekhra 
-            <div class="container-fluid">   2 -conception / 3-organisation et animation 4 approche pedagoique/ 5 bilan de la formation/6evaluation/ 
+<div class="footer-area footer-padding">        
+            <div class="container-fluid">  
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                         <div class="single-footer-caption mb-50">
@@ -76,4 +77,10 @@ management normalisé, l’audit et du pilotage de projets .</p>
                       </div>
                   </div>
               </div>
+              
           </div>
+<!--for footer-->
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.slicknav.min.js"></script>
+

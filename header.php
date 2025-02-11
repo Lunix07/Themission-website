@@ -20,6 +20,8 @@
 }
 
     </style>
+        <link rel="stylesheet" href="assets/css/style.css">
+
         <div class="header-area header_area">
             <div class="main-header">
                 <div class="header-bottom  header-sticky">

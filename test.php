@@ -178,10 +178,7 @@ session_start();
       <!-- JS here -->
           <!-- JS important pour footer et loader -->
 
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/main.js"></script>
+                <script src="assets/js/main.js"></script>
 
 
    

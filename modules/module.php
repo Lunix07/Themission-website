@@ -158,48 +158,47 @@
     <?php include 'header.php'; ?>
 
     <section class="intro-section">
-        <h1 style="color:blue">Module N°2: Gestion optimisée des Ressources Humaines</h1>
-        <p >La performance de votre organisme dépend directement de la gestion efficace de vos équipes. MISSION PROCESS propose des solutions adaptées pour organiser, suivre et optimiser les compétences, les formations et l'implication de vos collaborateurs.</p>
+        <h1>Module N°3: Gestion des Parties Prenantes</h1>
+        <p>La gestion des parties prenantes est cruciale pour établir et maintenir des relations harmonieuses avec toutes les entités qui influencent ou sont influencées par votre organisme. MISSION PROCESS vous propose des outils performants pour gérer efficacement ces relations, tout en répondant proactivement à leurs attentes.Avec MISSION PROCESS, transformez la gestion des parties prenantes en un atout stratégique, en garantissant une communication fluide, un suivi rigoureux et une capacité d’adaptation aux besoins évolutifs de votre environnement.</p>
     </section>
 
     <section class="cards-section">
-    <div class="card" onclick="showContent('content1', this)">
-        <div class="card-icon">👥</div>
-        <h3>Organisation des Ressources Humaines</h3>
-        <p>Optimisez la structuration et la répartition des ressources pour une gestion efficace.</p>
-    </div>
-    <div class="card" onclick="showContent('content2', this)">
-        <div class="card-icon">📚</div>
-        <h3>Gestion des Formations</h3>
-        <p>Renforcez les compétences de vos équipes grâce à des programmes adaptés.</p>
-    </div>
-    <div class="card" onclick="showContent('content3', this)">
-        <div class="card-icon">📈</div>
-        <h3>Suivi et Amélioration Continue des Ressources Humaines</h3>
-        <p>Évaluez les performances et mettez en place des plans d'amélioration durables.</p>
-    </div>
-</section>
-
+        <div class="card" onclick="showContent('content1', this)">
+            <div class="card-icon">📘</div>
+            <h3>Identification et Analyse des Parties Prenantes</h3>
+            <p>Learn more about the module and get started on the basics.</p>
+        </div>
+        <div class="card" onclick="showContent('content2', this)">
+            <div class="card-icon">💡</div>
+            <h3>Actions Proactives et Suivi Efficace</h3>
+            <p>Dive deeper into the core concepts that make up this module.</p>
+        </div>
+        <div class="card" onclick="showContent('content3', this)">
+            <div class="card-icon">🚀</div>
+            <h3>Intégration dans le Système de Management</h3>
+            <p>Explore advanced topics and broaden your understanding.</p>
+        </div>
+    </section>
 
     <section class="content-container">
         <!-- Content for Introduction -->
         <div id="content1" class="content-section">
-            <h2>Organigramme dynamique et fiches de fonction</h2>
-            <p>Visualisez la structure de votre organisme en temps réel, avec des fiches de fonction détaillant les responsabilités et les compétences requises pour chaque poste. Cela permet de suivre l’évolution de votre personnel et d’adapter la répartition des responsabilités.</p>
+            <h2>Cartographie des parties prenantes</h2>
+            <p>Identifiez et enregistrez les personnes et organisations susceptibles d’impacter vos opérations ou d'être affectées par vos décisions, vous permettant ainsi d’avoir une vision claire de leur influence</p>
         </div>
         <div id="content1" class="content-section">
-            <h2>Matrice de compétences </h2>
-            <p>Identifiez rapidement les compétences disponibles et celles manquantes dans votre organisme. La matrice de compétences permet d’optimiser l’affectation des talents et de repérer les besoins en formation ou en recrutement.</p>
+            <h2>Évaluation des attente</h2>
+            <p>Analysez les besoins et attentes de chaque partie prenante pour prioriser vos actions et garantir un alignement optimal avec leurs exigences.</p>
         </div>
 
         <!-- Content for Key Concepts -->
         <div id="content2" class="content-section">
-            <h2>Suivi en temps réel des formations </h2>
-            <p>Depuis la demande jusqu’à l’évaluation post-formation, MISSION PROCESS permet de piloter la planification, l'exécution et le suivi des formations en fonction des besoins individuels et organisationnels.</p>
+            <h2>Mise en œuvre ciblée des actions </h2>
+            <p>Adoptez une approche proactive en prenant des mesures appropriées pour répondre rapidement et efficacement aux demandes des parties prenantes.</p>
         </div>
         <div id="content2" class="content-section">
-            <h2>Coordination avec les organismes formateurs</h2>
-            <p>Optimisez la gestion des partenariats avec des organismes externes pour garantir que les programmes répondent aux attentes et aux objectifs de votre équipe.</p>
+            <h2>Suivi des initiatives</h2>
+            <p>Assurez un suivi constant des actions mises en place pour garantir leur efficacité, tout en ajustant vos stratégies selon les retours reçus.</p>
         </div>
         <div id="content2" class="content-section">
             <h2>Évaluation des formations</h2>
@@ -207,12 +206,12 @@
         </div>
         <!-- Content for Advanced Topics -->
         <div id="content3" class="content-section ">
-            <h2>Satisfaction du personnel</h2>
-            <p>Menez des enquêtes et des consultations régulières pour mesurer la satisfaction de vos équipes, identifier les points d’amélioration et renforcer l’engagement des collaborateurs.</p>
+            <h2>Intégration des retours</h2>
+            <p>Assurez-vous que les besoins et retours des parties prenantes sont pris en compte lors de vos revues de direction, garantissant ainsi des décisions éclairées et stratégiques.</p>
         </div>
         <div id="content3" class="content-section ">
-            <h2>Alertes et rappels automatisés</h2>
-            <p>Gérez les habilitations, formations et évaluations grâce à des notifications automatiques, garantissant un suivi rigoureux et une réduction des risques d’oubli.</p>
+            <h2>Adaptabilité et flexibilité</h2>
+            <p>Grâce à une gestion systématique des attentes, votre organisme est en mesure de s’adapter aux changements et aux nouveaux défis du marché tout en renforçant ses relations avec les parties prenantes.</p>
         </div>
     </section>
 
@@ -222,10 +221,7 @@
         </div>
     </footer>
 
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/main.js"></script>
+                <script src="assets/js/main.js"></script>
 
     <script>
         function showContent(contentId, cardElement) {

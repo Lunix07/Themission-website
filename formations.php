@@ -131,25 +131,17 @@ session_start();
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
         <div class="service-item position-relative">
           <div class="icon">
-            <i class="bi bi-people"></i> <!-- Icon changed to people -->
+            <i class="bi bi-file-earmark-text"></i> <!-- Icon changed to file -->
           </div>
-          <h3>Approche Pédagogique Personnalisée</h3>
-          <p>Création de méthodes d'enseignement adaptées aux divers styles d'apprentissage de vos collaborateurs.</p>
+          <h3>Conception de Plans de Formation</h3>
+          <p>Élaboration de programmes sur mesure alignés sur vos objectifs stratégiques.</p>
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="icon">
-            <i class="bi bi-bar-chart"></i> <!-- Icon changed to bar-chart -->
-          </div>
-          <h3>Évaluation des Formations</h3>
-          <p>Mise en place d'indicateurs pour mesurer l'impact des formations sur la performance des équipes.</p>
-        </div>
-      </div><!-- End Service Item -->
+
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
         <div class="service-item position-relative">
@@ -161,6 +153,22 @@ session_start();
         </div>
       </div><!-- End Service Item -->
 
+
+
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-people"></i> <!-- Icon changed to people -->
+          </div>
+          <h3>Approche Pédagogique Personnalisée</h3>
+          <p>Création de méthodes d'enseignement adaptées aux divers styles d'apprentissage de vos collaborateurs.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+
+   
+
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
         <div class="service-item position-relative">
           <div class="icon">
@@ -171,15 +179,19 @@ session_start();
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="service-item position-relative">
           <div class="icon">
-            <i class="bi bi-file-earmark-text"></i> <!-- Icon changed to file -->
+            <i class="bi bi-bar-chart"></i> <!-- Icon changed to bar-chart -->
           </div>
-          <h3>Conception de Plans de Formation</h3>
-          <p>Élaboration de programmes sur mesure alignés sur vos objectifs stratégiques.</p>
+          <h3>Évaluation des Formations</h3>
+          <p>Mise en place d'indicateurs pour mesurer l'impact des formations sur la performance des équipes.</p>
         </div>
       </div><!-- End Service Item -->
+
+    
 
     </div>
   </div>
@@ -218,12 +230,9 @@ session_start();
 </footer>
 <!-- JS here -->
 <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/animated.headline.js"></script>
 <script src="assets/js/jquery.magnific-popup.js"></script>
@@ -240,7 +249,6 @@ session_start();
 <script src="assets/js/jquery.form.js"></script>
 <script src="assets/js/jquery.validate.min.js"></script>
 <script src="assets/js/mail-script.js"></script>
-<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/main.js"></script>
 
 

@@ -221,12 +221,9 @@ session_start();
 </footer>
 <!-- JS here -->
 <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/animated.headline.js"></script>
 <script src="assets/js/jquery.magnific-popup.js"></script>
@@ -243,7 +240,6 @@ session_start();
 <script src="assets/js/jquery.form.js"></script>
 <script src="assets/js/jquery.validate.min.js"></script>
 <script src="assets/js/mail-script.js"></script>
-<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/main.js"></script>
 
 

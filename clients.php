@@ -150,12 +150,9 @@
 </div>
 
 <!-- JS here -->
-<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.slicknav.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
 <script src="assets/js/animated.headline.js"></script>
 <script src="assets/js/jquery.magnific-popup.js"></script>
