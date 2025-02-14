@@ -149,7 +149,7 @@ h6 {
 }
 
 p {
-	font-family:"Verdana", sans-serif;
+	font-family:"Arial", sans-serif;
 	color: #000000;
 	font-size: 19px;
 	line-height: 30px;
@@ -2669,7 +2669,7 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.header-area .header-bottom {
-		padding: 0px 80px
+		padding: 0px 20px
 	}
 }
 
@@ -2765,7 +2765,7 @@ hr {
 .main-header .main-menu ul li a {
 	color: #1D2547;
 	font-weight: 700;
-	padding: 39px 19px;
+	padding: 30px 19px;
 	display: block;
 	font-size: 16px;
 	-webkit-transition: .3s;
@@ -8430,3 +8430,4 @@ del {
 .switch-wrap {
 	margin-bottom: 10px
 }
+

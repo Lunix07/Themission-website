@@ -1,3 +1,14 @@
+.moduletitle {
+	margin-top: 70px;
+	font-size: 34px
+}
+
+
+
+
+
+
+
 .main-timeline2 {
     padding-top: 50px;
     overflow: hidden;
@@ -74,14 +85,13 @@
 
 .main-timeline2 .title {
     font-size: 24px;
-    margin: 0;
+    margin-bottom: 22px;
 }
 
 .main-timeline2 .description {
     font-size: 15px;
-    letter-spacing: 1px;
     margin: 0 0 5px;
-    color: white;
+    color: #010A44;
 }
 
 .main-timeline2 .timeline:nth-child(2n) {
@@ -131,11 +141,11 @@
 .main-timeline2 .timeline:nth-child(3n+2) .timeline-content,
 .main-timeline2 .timeline:nth-child(3n+2) .timeline-content:after,
 .main-timeline2 .timeline:nth-child(3n+2) .timeline-content:before {
-    background: #0940b8; /* Blue */
+    background: #0d6efd; /* Blue */
 }
 
 .main-timeline2 .timeline:nth-child(3n+2) .icon {
-    box-shadow: 0 0 0 2px #0940b8;
+    box-shadow: 0 0 0 2px #0d6efd;
 }
 
 .main-timeline2 .timeline:nth-child(3n+0) .icon,

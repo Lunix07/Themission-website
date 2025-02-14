@@ -10,7 +10,6 @@ session_start();
     <title>TheMission - Accueil</title>
     <meta name="description" content="MissionTrack est une application pour la gestion de la qualité d’entreprise">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/loder.png">
 
   
