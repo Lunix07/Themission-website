@@ -122,98 +122,23 @@ session_start();
             <!-- Single Slider -->
             <div class="single-slider">
                 <div class="slider-cap-wrapper">
-                    <div class="hero-caption">
-                        <!-- Section Title -->
-                        <h2 class="closer-title" data-aos="fade-up" data-aos-delay="100">About Us</h2>
-                        <!-- End Section Title -->
-                        <p data-aos="fade-up" data-aos-delay="200">
-                            THE MISSION is a multidisciplinary firm with expertise in finance, human resources, management systems, audit, and project management. We help you organize your structure and achieve certifications according to your chosen standards.
-                        </p>
-                    </div>
                     <div class="hero-img" data-aos="fade-up" data-aos-delay="300">
                         <img src="assets/img/identity.jpg" alt="About Us">
+                    </div>
+                    <div class="hero-caption" data-aos="fade-up" data-aos-delay="200">
+                        <!-- Section Title -->
+                        <h2 class="closer-title">About Us</h2>
+                        <!-- End Section Title -->
+                        <p>
+                            Est un cabinet multidisciplinaire, notre expertise s’appuie sur notre expérience dans les domaines de la finance, la gestion des Ressources Humaines, la mise en place des systèmes de management normalisé, l’audit et le pilotage de projets.
+                        </p>
+                        <a href="#contact" class="contact-us">Contact Us →</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<style>
-/* About Section
---------------------------------------------------------------*/
-
-.closer-title {
-  margin-bottom: 20px; /* Adjust space below the title */
-  font-size: 2rem; /* Modern, clean font size */
-  text-align: left; /* Align text to the left for a modern look */
-  font-weight: bold; /* Bold title for emphasis */
-}
-
-.hero-caption p {
-  margin-top: 0; /* Remove top margin for cleaner spacing */
-  font-size: 1rem; /* Comfortable reading size */
-  line-height: 1.5; /* Optimal line height for readability */
-  text-align: left; /* Left-align text for a modern feel */
-  color: #333; /* Subtle text color */
-}
-
-.slider-area {
-  padding: 50px 0; /* Adequate padding for spacing */
-  background-color: #f9f9f9; /* Light background for a clean look */
-}
-
-.slider-cap-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.hero-caption {
-  width: 50%; /* Adjust width for text */
-  padding-right: 20px; /* Spacing between text and image */
-}
-
-.hero-img {
-  width: 45%; /* Adjust width for image */
-  overflow: hidden;
-}
-
-.hero-img img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px; /* Optional: Adds rounded corners to the image */
-}
-
-@media (max-width: 767px) {
-  .slider-cap-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-caption, .hero-img {
-    width: 100%;
-    padding-right: 0;
-  }
-
-  .hero-img {
-    margin-top: 20px;
-  }
-
-  .closer-title {
-    font-size: 1.5rem; /* Slightly smaller title on mobile */
-  }
-
-  .hero-caption p {
-    font-size: 0.9rem; /* Slightly smaller text on mobile */
-  }
-}
-</style>
-
-
 
 
 

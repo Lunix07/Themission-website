@@ -719,6 +719,89 @@ section,
 	}
 }
 
+.closer-title {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hero-caption {
+  width: 50%;
+  padding: 22px;
+  background-color: #f5e7d1; /* Light beige background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* Ensure alignment */
+  opacity: 0; /* Hide initially */
+  transition: opacity 0.6s ease-in-out; /* Smooth fade-in effect */
+}
+
+.hero-caption[data-aos="fade-up"] {
+  opacity: 1; /* Ensure it appears with animation */
+}
+
+.hero-caption p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  color: #333;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.contact-us {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.slider-area {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.slider-cap-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.hero-img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.hero-img img {
+  width: 100%;
+  height: 442px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .slider-cap-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-caption, .hero-img {
+    width: 100%;
+  }
+
+  .closer-title {
+    font-size: 2rem;
+  }
+
+  .hero-caption p {
+    font-size: 1rem;
+  }
+}
 
   /*--------------------------------------------------------------
   # Clients Section
