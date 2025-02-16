@@ -130,7 +130,7 @@ session_start();
                         <h2 class="closer-title">About Us</h2>
                         <!-- End Section Title -->
                         <p>
-                            Est un cabinet multidisciplinaire, notre expertise s’appuie sur notre expérience dans les domaines de la finance, la gestion des Ressources Humaines, la mise en place des systèmes de management normalisé, l’audit et le pilotage de projets.
+                            THE MISSION est un cabinet multidisciplinaire, notre expertise s’appuie sur notre expérience dans les domaines de la finance, la gestion des Ressources Humaines, la mise en place des systèmes de management normalisé, l’audit et le pilotage de projets.
                         </p>
                         <a href="#contact" class="contact-us">Contact Us →</a>
                     </div>
