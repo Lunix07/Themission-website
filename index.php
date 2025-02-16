@@ -122,22 +122,96 @@ session_start();
             <!-- Single Slider -->
             <div class="single-slider">
                 <div class="slider-cap-wrapper">
-                    <div class="hero-caption text-background">
+                    <div class="hero-caption">
                         <!-- Section Title -->
-                        <h2 class="closer-title" data-aos="fade-up" data-aos-delay="100">Qui sommes nous?</h2>
+                        <h2 class="closer-title" data-aos="fade-up" data-aos-delay="100">About Us</h2>
                         <!-- End Section Title -->
                         <p data-aos="fade-up" data-aos-delay="200">
-                            THE MISSION est un cabinet multidisciplinaire qui s'appuie sur une expertise solide dans la finance, la gestion des ressources humaines, la mise en place de systèmes de management normalisés, l'audit et le pilotage de projets. Nous vous accompagnons dans l'organisation de votre structure et dans l'obtention de certifications selon les référentiels de votre choix. Notre approche repose sur un partenariat authentique avec vous, visant à renforcer votre organisation et à développer vos compétences. Nous répondons à vos besoins et attentes tout en nous adaptant à votre environnement, valorisant vos atouts et tenant compte de vos contraintes.
+                            THE MISSION is a multidisciplinary firm with expertise in finance, human resources, management systems, audit, and project management. We help you organize your structure and achieve certifications according to your chosen standards.
                         </p>
                     </div>
                     <div class="hero-img" data-aos="fade-up" data-aos-delay="300">
-                        <img src="assets/img/identity.jpg" alt="">
+                        <img src="assets/img/identity.jpg" alt="About Us">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+/* About Section
+--------------------------------------------------------------*/
+
+.closer-title {
+  margin-bottom: 20px; /* Adjust space below the title */
+  font-size: 2rem; /* Modern, clean font size */
+  text-align: left; /* Align text to the left for a modern look */
+  font-weight: bold; /* Bold title for emphasis */
+}
+
+.hero-caption p {
+  margin-top: 0; /* Remove top margin for cleaner spacing */
+  font-size: 1rem; /* Comfortable reading size */
+  line-height: 1.5; /* Optimal line height for readability */
+  text-align: left; /* Left-align text for a modern feel */
+  color: #333; /* Subtle text color */
+}
+
+.slider-area {
+  padding: 50px 0; /* Adequate padding for spacing */
+  background-color: #f9f9f9; /* Light background for a clean look */
+}
+
+.slider-cap-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-caption {
+  width: 50%; /* Adjust width for text */
+  padding-right: 20px; /* Spacing between text and image */
+}
+
+.hero-img {
+  width: 45%; /* Adjust width for image */
+  overflow: hidden;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+@media (max-width: 767px) {
+  .slider-cap-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-caption, .hero-img {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .hero-img {
+    margin-top: 20px;
+  }
+
+  .closer-title {
+    font-size: 1.5rem; /* Slightly smaller title on mobile */
+  }
+
+  .hero-caption p {
+    font-size: 0.9rem; /* Slightly smaller text on mobile */
+  }
+}
+</style>
 
 
 
@@ -163,10 +237,10 @@ session_start();
         <div class="icon">
           <i class="bi bi-person-badge"></i>
         </div>
-        <p> Notre engagement consiste à vous garantir un soutien tangible dans la réussite de vos projets, tout en favorisant le transfert continu de compétences à travers notre expertise spécialisée<p>
+        <p> Notre engagement consiste à vous garantir un soutien tangible dans la réussite de vos projets, tout en favorisant le transfert continu de compétences à travers notre expertise spécialisée</p>
         <ul>
           <li><i class="bi bi-check"></i> <span>Fournir des compétences et des expériences </span></li>
-          <li><i class="bi bi-check"></i> <span>Offrir une perspective objective, </span></li>
+          <li><i class="bi bi-check"></i> <span>Offrir une perspective objective </span></li>
           <li><i class="bi bi-check"></i> <span>Établir un partenariat solide avec vous</span></li>
           
         </ul>
@@ -420,10 +494,7 @@ session_start();
     </div>
     </div>
 </section><!-- /Clients Section -->
- mail fih engagement vision w adresss wPourquoi faire appel à nous /page nos clients tetbadel / footer tetbadel / revoyer nos services / qu en pensent nos clients 
 
-
-<!-- avis Section -->
 
 <section id="avis" class="team section demo" >
  <!-- Section Title -->
@@ -537,43 +608,28 @@ exceptionnelle.
 
 
 
-
-          <div class="col-lg-8">
-  <form action="contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-    <div class="form-field-pair">
-      <div class="form-group">
-        <input type="text" name="name" class="form" id="name" required>
-        <label for="name" class="form-label">Nom</label>
-      </div>
-      <div class="form-group">
-        <input type="email" class="form" name="email" id="email" required>
-        <label for="email" class="form-label">Email</label>
-      </div>
-    </div>
-
-    <div class="form-field-pair">
-      <div class="form-group">
-        <input type="text" class="form" name="subject" id="subject" required>
-        <label for="subject" class="form-label">Sujet</label>
-      </div>
-      <div class="form-group">
-        <input type="text" name="phone" class="form" id="phone" required>
-        <label for="phone" class="form-label">Téléphone</label>
-      </div>
-    </div>
-
-    <!-- Wrap the message field in a form-field-pair div -->
-      <div class="form-group">
-        <textarea class="form message" name="message" id="message" rows="5" required></textarea>
-        <label for="message" class="form-label">Message</label>
-      </div>
-
-    <div class="text-center">
-      <button type="submit" class="btn-submit">Envoyer</button>
-    </div>
+          <div class="col-lg-8 formbox">
+    <form action="contact.php" method="post" class="php-email-form">
+        <div class="form-group">
+            <input type="text" name="name" class="form" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" class="form" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <textarea class="form" name="message" placeholder="Message" rows="4" required></textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn-submit">Send</button>
+        </div>
+    </form>
+</div>
+<div>
 
     <div class="loading">Chargement...</div>
     <div class="sent-message">Votre message a été envoyé. Merci!</div>
+    <div class="error-message">An error occurred. Please try again.</div>
+
   </form>
 </div>
 
@@ -597,17 +653,15 @@ exceptionnelle.
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
 
-
-
-<script src="assets/js/contact.js"></script>
-<script src="assets/js/jquery.form.js"></script>
 <script src="assets/js/jquery.validate.min.js"></script>
+
+
+<script src="assets/js/jquery.form.js"></script>
 
 <script src="assets/js/main.js"></script>
  
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>

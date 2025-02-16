@@ -11,12 +11,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Initialize response array
     $response = array("status" => "error", "message" => "Unknown error");
 
+    // Validate required fields
+    if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message'])) {
+        $response["message"] = "Please fill all required fields.";
+        header('Content-Type: application/json');
+        echo json_encode($response);
+        exit;
+    }
+
     // Get and sanitize form inputs
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
-    $subject = htmlspecialchars($_POST['subject']);
+    $subject = htmlspecialchars($_POST['subject'] ?? 'No Subject'); // Default subject if not provided
     $message = htmlspecialchars($_POST['message']);
-    $phone = htmlspecialchars($_POST['phone']);
+    $phone = htmlspecialchars($_POST['phone'] ?? ''); // Optional field
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -33,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('faten.maalej@themission.tn'); // Your recipient email
+        $mail->addAddress('midou17.br@gmail.com'); // Your recipient email
 
         // Content
         $mail->isHTML(true);

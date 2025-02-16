@@ -189,8 +189,6 @@
 
 })();
 
-// Emailing logic
-
 $(document).ready(function() {
   // Ensure that messages are hidden initially
   $('.loading').hide();
@@ -217,14 +215,16 @@ $(document).ready(function() {
               $('.loading').hide();
 
               if (response.status === 'success') {
-                  // Show success message and hide the form
+                  // Show success message
                   $('.sent-message').text(response.message).show();
-                  
-                  // Option 1: Hide the form
-                  $('.php-email-form').hide();
 
-                  // Option 2: Clear the form inputs (if you want the form to remain visible but empty)
-                  // $('.php-email-form')[0].reset();
+                  // Clear the form inputs (keep the form visible)
+                  form[0].reset();
+
+                  // Optionally, hide the success message after a few seconds
+                  setTimeout(function() {
+                      $('.sent-message').fadeOut();
+                  }, 5000); // Hide after 5 seconds
               } else {
                   // Show error message
                   $('.error-message').text(response.message).show();
@@ -238,6 +238,9 @@ $(document).ready(function() {
       });
   });
 });
+
+
+
 $(document).ready(function(){
   $("#testimonial-slider").owlCarousel({
       items:3,
