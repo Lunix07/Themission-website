@@ -1,0 +1,92 @@
+    /* Custom styles for sections */
+    .section {
+        padding: 80px 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Backgrounds for sections */
+    .header {
+        background: linear-gradient(135deg, #99cbcc, #0940b8);
+        color: #fff;
+    }
+
+    .features {
+        background: #f9f9f9;
+    }
+
+    .advantages {
+        background: #fff;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 2.5em;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    /* Cards styling */
+    .card {
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        margin-bottom: 30px;
+
+        /* Fixed height for card */
+        height: 450px; /* Set a fixed height for all cards */
+        display: flex; /* Enable flexbox for vertical alignment */
+        flex-direction: column; /* Ensure vertical stacking */
+        justify-content: space-between; /* Space content evenly within the card */
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+    }
+
+    .card img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 240px; /* Fixed height for the image */
+        object-fit: cover; /* Ensures the image scales correctly */
+    }
+
+    .card-body {
+        padding: 20px;
+        flex-grow: 1; /* Allow the card body to grow and fill available space */
+        display: flex; /* Use flexbox for layout within card body */
+        flex-direction: column; /* Ensure vertical stacking */
+    }
+
+    /* Text animations */
+    [data-aos] {
+        opacity: 0;
+        transition-property: opacity, transform;
+    }
+
+    /* Custom styles for header image */
+    .header img {
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    /* Custom CTA Button */
+.cta-btn {
+    background: #0044CC; /* Strong contrast (Deep Blue) */
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 14px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin-top:20px;
+}
+
+.cta-btn:hover {
+    background: #002F88; /* Darker blue on hover */
+    transform: scale(1.05);
+}

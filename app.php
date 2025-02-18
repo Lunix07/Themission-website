@@ -32,83 +32,8 @@ session_start();
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <style>
-    /* Custom styles for sections */
-    .section {
-        padding: 80px 20px;
-        position: relative;
-        overflow: hidden;
-    }
+    <link rel="stylesheet" href="assets/css/app.css">
 
-    /* Backgrounds for sections */
-    .header {
-        background: linear-gradient(135deg, #99cbcc, #0940b8);
-        color: #fff;
-    }
-
-    .features {
-        background: #f9f9f9;
-    }
-
-    .advantages {
-        background: #fff;
-    }
-
-    /* Section titles */
-    .section-title {
-        font-size: 2.5em;
-        margin-bottom: 40px;
-        font-weight: bold;
-    }
-
-    /* Cards styling */
-    .card {
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s;
-        margin-bottom: 30px;
-
-        /* Fixed height for card */
-        height: 450px; /* Set a fixed height for all cards */
-        display: flex; /* Enable flexbox for vertical alignment */
-        flex-direction: column; /* Ensure vertical stacking */
-        justify-content: space-between; /* Space content evenly within the card */
-    }
-
-    .card:hover {
-        transform: translateY(-10px);
-    }
-
-    .card img {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        height: 200px; /* Fixed height for the image */
-        object-fit: cover; /* Ensures the image scales correctly */
-    }
-
-    .card-body {
-        padding: 20px;
-        flex-grow: 1; /* Allow the card body to grow and fill available space */
-        display: flex; /* Use flexbox for layout within card body */
-        flex-direction: column; /* Ensure vertical stacking */
-    }
-
-    /* Text animations */
-    [data-aos] {
-        opacity: 0;
-        transition-property: opacity, transform;
-    }
-
-    /* Custom styles for header image */
-    .header img {
-        width: 300px;
-        max-width: 100%;
-        height: auto;
-        margin-top: 20px;
-    }
-</style>
 
 </head>
 <body>
@@ -185,7 +110,7 @@ session_start();
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
                 <a href="module4.php" class="card-link">
                     <div class="card">
-                        <img src="assets/img/app/modif.jpg" class="card-img-top" alt="Gestion des modifications">
+                        <img src="assets/img/app/modif.webp" class="card-img-top" alt="Gestion des modifications">
                         <div class="card-body">
                             <h3 class="card-title">Gestion des modifications</h3>
                             <p class="card-text">Documentez et contrôlez les changements ayant un impact sur votre système de management qualité.</p>
@@ -197,7 +122,7 @@ session_start();
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="1000">
                 <a href="module5.php" class="card-link">
                     <div class="card">
-                        <img src="assets/img/app/conforme.webp" class="card-img-top" alt="Gestion des non-conformités">
+                        <img src="assets/img/app/conforme.png" class="card-img-top" alt="Gestion des non-conformités">
                         <div class="card-body">
                             <h3 class="card-title">Gestion des non-conformités</h3>
                             <p class="card-text">Suivez et traitez les non-conformités avec des mesures correctives et préventives adaptées.</p>
@@ -287,13 +212,14 @@ session_start();
         </div>
 
         <!-- Call to Action Section -->
-        <div class="section cta" style="background: linear-gradient(135deg, #fe9833, #fe9800); color: #fff;">
-            <div class="container">
-                <h2 class="section-title" data-aos="fade-down">Prêt à améliorer votre gestion de la qualité ?</h2>
-                <p data-aos="fade-up" data-aos-delay="200">Contactez-nous dès aujourd'hui pour en savoir plus sur MissionProcess et comment il peut aider votre entreprise.</p>
-                <a href="index.php#contact" class="btn btn-light btn-lg" data-aos="zoom-in" data-aos-delay="400">Contactez-nous</a>
-            </div>
-        </div>
+<div class="section cta" style="background: linear-gradient(135deg, #FF7F50, #E67E22, #D35400); color: #fff; text-align: center;">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-down" style="font-size: 2.8em; font-weight: 800;">Prêt à améliorer votre gestion de la qualité ?</h2>
+        <p data-aos="fade-up" data-aos-delay="200" style="font-size: 1.2em; max-width: 700px; margin: 0 auto;">Contactez-nous dès aujourd'hui pour en savoir plus sur MissionProcess et comment il peut aider votre entreprise.</p>
+        <a href="index.php#contact" class="btn btn-lg cta-btn" data-aos="zoom-in" data-aos-delay="400">Contactez-nous</a>
+    </div>
+</div>
+
 
     </main>
 

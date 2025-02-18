@@ -179,7 +179,7 @@ session_start();
           <i class="bi bi-compass"></i>
         </div>
 
-        <p>Notre mission chez THE MISSION est de vous accompagner dans l'organisation de votre structure, l'optimisation de vos ressources, la maîtrise de vos risques, la satisfaction de vos parties prenantes, l'atteinte de vos objectifs stratégiques, tout en adoptant une approche systémique orientée vers la performance.<p>
+        <p>Notre mission chez THE MISSION est de vous accompagner dans l'organisation de votre structure, l'optimisation de vos ressources, la maîtrise de vos risques, la satisfaction de vos parties prenantes, l'atteinte de vos objectifs stratégiques, tout en adoptant une approche systémique orientée vers la performance.</p>
       </div>
     </div><!-- End Pricing Item -->
 
@@ -189,7 +189,7 @@ session_start();
         <div class="icon">
           <i class="bi bi-globe"></i>
         </div>
-        <p>Chez THE MISSION est de devenir la référence incontournable dans l’accompagnement des entreprises, leur permettant d'atteindre une reconnaissance internationale, de s'ouvrir à de nouveaux marchés et de se différencier face à la concurrence.<p>
+        <p>Chez THE MISSION est de devenir la référence incontournable dans l’accompagnement des entreprises, leur permettant d'atteindre une reconnaissance internationale, de s'ouvrir à de nouveaux marchés et de se différencier face à la concurrence.</p>
       </div>
     </div><!-- End Pricing Item -->
 

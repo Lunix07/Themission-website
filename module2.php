@@ -13,133 +13,161 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background: #f7f9fa;
-            color: #333;
-            line-height: 1.6;
-        }
+ /* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-        .intro-section {
-            padding: 90px 20px;
-            background: #99cbcc;
-            color: white;
-            text-align: center;
-        }
-        .intro-section h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        .intro-section p {
-            font-size: 1.2rem;
-            max-width: 900px;
-            margin: 0 auto;
-            color: white;
-            font-weight: bold;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-        .cards-section {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 0 20px;
-            margin-top: -60px;
-        }
-        .card {
-            background: #0940b8;
-            border-radius: 12px;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            padding: 40px 30px;
-            text-align: center;
-            width: 280px;
-            cursor: pointer;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-        }
-        .card-icon {
-            font-size: 3rem;
-            color: #0940b8;
-            margin-bottom: 15px;
-        }
-        .card h3 {
-            font-size: 1.4rem;
-            color: orange;
-            margin-bottom: 10px;
-        }
-        .card p {
-            color: orange;
-            font-size: 1rem;
-        }
-        .card.active {
-            transform: scale(1.1);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
+/* Background & Overall Layout */
+body {
+    background: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
 
-        .content-container {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding: 50px 20px;
-            background: #ffffff;
-            border-top: 4px solid #99cbcc;
-            max-width: 1200px;
-            margin: 0 auto;
-            transition: all 0.5s ease-in-out;
-        }
+/* Header Section */
+.intro-section {
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #74b9b0, #4a8f92);
+    color: white;
+    text-align: center;
+}
+.intro-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.intro-section p {
+    font-size: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-weight: 400;
+}
 
-        .content-section {
-            flex: 1;
-            min-width: 280px;
-            max-width: 45%;
-            padding: 20px;
-            background: #f1f4f9;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: none;
-        }
-        .content-section.active {
-            display: block;
-            margin-top: 90px;
-            margin-bottom: 100px;
-        }
-        .content-section h2 {
-            color: #0940b8;
-            font-size: 1.6rem;
-            margin-bottom: 10px;
-        }
-        .content-section p {
-            color: #333;
-            font-size: 1rem;
-            line-height: 1.6;
-        }
+/* Cards Section */
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: -50px;
+}
 
-        @media (max-width: 768px) {
-            .content-section {
-                max-width: 100%;
-            }
-        }
+.card {
+    background: #0056b3; /* Deep blue for modern look */
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    text-align: center;
+    width: 320px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: white;
+}
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    font-size: 3rem;
+    color: #ff9800; /* Modern orange */
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card p {
+    color: #ffcc80; /* Softer orange */
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card.active {
+    transform: scale(1.1);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Content Section */
+.content-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    background: #ffffff;
+    border-top: 4px solid #4a8f92;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.content-section {
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+    padding: 25px;
+    background: #eef3f7;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.content-section h2 {
+    color: #0056b3;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.content-section p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cards-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .content-section {
+        max-width: 100%;
+    }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
     </style>
 </head>
 <body>
