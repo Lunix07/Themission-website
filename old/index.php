@@ -152,7 +152,7 @@ session_start();
   <h2>The Mission</h2>
 </div><!-- End Section Title -->
 
-<div class="container themission" data-aos="zoom-in" data-aos-delay="100">
+<div class="container" data-aos="zoom-in" data-aos-delay="100">
 
   <div class="row g-4">
 
@@ -162,13 +162,12 @@ session_start();
         <div class="icon">
           <i class="bi bi-person-badge"></i>
         </div>
-        <p>THE MISSION s'engage à vous accompagner avec professionnalisme et rigueur pour garantir la réussite de vos projets, en assurant un transfert permanent de compétences et une approche sur mesure adaptée à vos enjeux stratégiques.</p>
+        <p> Notre engagement consiste à vous garantir un soutien tangible dans la réussite de vos projets, tout en favorisant le transfert continu de compétences à travers notre expertise spécialisée</p>
         <ul>
-          <li><i class="bi bi-check"></i> <span>Un renforcement des compétences : Nous apportons une expertise pointue et des expériences complémentaires à vos ressources internes. </span></li>
-          <li><i class="bi bi-check"></i> <span>Une approche orientée résultats : Nos interventions visent des solutions concrètes et mesurables pour améliorer votre performance.</span></li>
-          <li><i class="bi bi-check"></i> <span>Une confidentialité absolue : Toutes les informations et documents partagés sont strictement protégés.</span></li>
-          <li><i class="bi bi-check"></i> <span>Une démarche d'amélioration continue : Nous vous accompagnons dans l'optimisation durable de vos processus et pratiques.</span></li>
-
+          <li><i class="bi bi-check"></i> <span>Fournir des compétences et des expériences </span></li>
+          <li><i class="bi bi-check"></i> <span>Offrir une perspective objective </span></li>
+          <li><i class="bi bi-check"></i> <span>Établir un partenariat solide avec vous</span></li>
+          
         </ul>
       </div>
     </div><!-- End Pricing Item -->
@@ -180,7 +179,7 @@ session_start();
           <i class="bi bi-compass"></i>
         </div>
 
-        <p>THE MISSION vous accompagne vers la certification selon les référentiels ISO en vous aidant à structurer votre organisation, optimiser vos ressources et maîtriser vos risques. Grâce à notre approche systémique, nous vous guidons dans l'amélioration continue de votre performance, la satisfaction de vos parties intéressées et l'atteinte de vos objectifs stratégiques.</p>
+        <p>Notre mission chez THE MISSION est de vous accompagner dans l'organisation de votre structure, l'optimisation de vos ressources, la maîtrise de vos risques, la satisfaction de vos parties prenantes, l'atteinte de vos objectifs stratégiques, tout en adoptant une approche systémique orientée vers la performance.</p>
       </div>
     </div><!-- End Pricing Item -->
 
@@ -190,7 +189,7 @@ session_start();
         <div class="icon">
           <i class="bi bi-globe"></i>
         </div>
-        <p>THE MISSION aspire à être le partenaire incontournable des entreprises dans leur quête d'excellence et de reconnaissance internationale. En les accompagnant vers la certification selon les référentiels ISO, nous leur permettons d'accéder à de nouveaux marchés, de se démarquer de la concurrence et d'optimiser leur performance de manière durable.</p>
+        <p>Chez THE MISSION est de devenir la référence incontournable dans l’accompagnement des entreprises, leur permettant d'atteindre une reconnaissance internationale, de s'ouvrir à de nouveaux marchés et de se différencier face à la concurrence.</p>
       </div>
     </div><!-- End Pricing Item -->
 
@@ -342,30 +341,153 @@ session_start();
     
 
   <!-- Clients Section -->
-<section id="clients" class="clients section">
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Nous ont fait confiance</h2>
-    </div><!-- End Section Title -->
+  <section id="clients" class="clients section ">
+<div class="container section-title" data-aos="fade-up">
+  <h2>Nous ont fait confiance</h2>
+</div><!-- End Section Title -->
 
-        <div class="swiper clients-slider" data-aos="zoom-in" data-aos-delay="100">
-            <div class="swiper-wrapper">
-                <!-- Client Items -->
-                <div class="swiper-slide"><img src="assets/img/clients/client1.jpg" class="img-fluid" alt="Client 1"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client2.jpg" class="img-fluid" alt="Client 2"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client3.jpg" class="img-fluid" alt="Client 3"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client4.jpg" class="img-fluid" alt="Client 4"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client5.jpg" class="img-fluid" alt="Client 5"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client7.jpg" class="img-fluid" alt="Client 7"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client8.jpg" class="img-fluid" alt="Client 8"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client9.jpg" class="img-fluid" alt="Client 9"></div>
-                <div class="swiper-slide"><img src="assets/img/clients/client10.jpg" class="img-fluid" alt="Client 10"></div>
-                <!-- Add more clients as needed -->
-            </div>
-            <!-- Navigation Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+<div class="container">
+<div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container" data-aos="fade-up">
+    
+
+            <div class="row gy-4 sliding-container"> <!-- New container for sliding -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client1.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client2.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client3.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client4.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client5.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client6.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client7.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client8.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client9.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client10.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client11.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client12.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client13.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client14.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client15.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client16.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client17.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <div class="col-xl-2 col-md-3 col-6 client-logo">
+                    <img src="assets/img/clients/client18.jpg" class="img-fluid" alt="">
+                </div><!-- End Client Item -->
+                <!-- Add more clients here if needed -->
+            
+        </div>
     </div>
-</section>
+    </div>
+    </div>
+</section><!-- /Clients Section -->
+
+
+<section id="avis" class="team section demo" >
+ <!-- Section Title -->
+ <div class="container section-title" data-aos="fade-up">
+  <h2>Qu'en pensent nos clients?</h2>
+</div><!-- End Section Title -->
+    <div class="container"  >
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial" data-aos="fade" data-aos-delay="100">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                        Bonjour chère Mme Faten,
+Je tiens à vous exprimer toute ma gratitude pour le temps et l'énergie que vous 
+avez déployés pour notre formation et vous remercier du fond du cœur pour votre 
+dévouement et votre générosité.
+                       </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="assets/img/clients/client5.jpg" alt=""></div>
+                            <h3 class="title">Pr.Imen TLICH</h3>
+                        </div>
+                    </div>
+                    <div class="testimonial" data-aos="fade" data-aos-delay="200">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                        Merci beaucoup à Madame Faten Maalej pour son accompagnement tout au long de 
+la mise en place du Système de Management d’un organisme  d’Education/formation 
+au sein à la Faculté de Médecine de Tunis..
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="assets/img/clients/client2.jpg" alt=""></div>
+                            <h3 class="title">FMT</h3>
+                        </div>
+                    </div>
+                    <div class="testimonial" data-aos="fade" data-aos-delay="300">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                        Chère Faten bonsoir,Merci pour vos félicitations. Mais si nous avons si bien réussi, c’est parce que nous avons bénéficié d’une bonne qualité de formation dispensée par une formatrice exceptionnelle.         </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="assets/img/clients/client12.jpg" alt=""></div>
+                            <h3 class="title">Pr.Samia KAROUI ZOUAOUI</h3>
+                        </div>
+                    </div>
+                    <div class="testimonial" data-aos="fade" data-aos-delay="300">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                        Chère Faten bonsoir,
+Merci pour vos félicitations. Mais si nous avons si bien réussi, c’est parce que nous 
+avons bénéficié d’une bonne qualité de formation dispensée par une formatrice 
+exceptionnelle.Merci pour vos félicitations. Mais si nous avons si bien réussi, c’est parce que nous 
+avons bénéficié d’une bonne qualité de formation dispensée par une formatrice 
+exceptionnelle.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="assets/img/clients/client1.jpg" alt=""></div>
+                            <h3 class="title">Pr.Samia KAROUI ZOUAOUI</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section><!-- /avis Section -->
+
+
 
     
    
@@ -470,29 +592,6 @@ session_start();
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/js/index.js"></script>
 
-<!-- Swiper JS (CDN) -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  var swiper = new Swiper(".clients-slider", {
-      slidesPerView: 5,  /* Show 5 logos at a time */
-      spaceBetween: 20,
-      loop: true, /* Infinite loop */
-      autoplay: {
-          delay: 3500,
-          disableOnInteraction: false,
-      },
-      navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-          320: { slidesPerView: 2, spaceBetween: 10 },
-          480: { slidesPerView: 3, spaceBetween: 15 },
-          768: { slidesPerView: 4, spaceBetween: 20 },
-          1024: { slidesPerView: 5, spaceBetween: 25 }
-      }
-  });
-</script>
 
 </body>
 
